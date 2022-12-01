@@ -7,7 +7,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
     publicPath: '/',
-    hashFunction: "sha256",
+    hashFunction: "xxhash64",
   },
   module: {
     rules: [
