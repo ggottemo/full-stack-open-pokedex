@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: '18.x'
       - name: Install dependencies
-      - branding:
+        branding:
           icon: '🚀'
           color: 'blue'
         run: npm install
