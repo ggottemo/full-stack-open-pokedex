@@ -10,6 +10,5 @@ jobs:
   hello-world:
     runs-on: ubuntu-latest
     steps:
-      name: Hello world action
       run: |
         echo "Hello world!"
