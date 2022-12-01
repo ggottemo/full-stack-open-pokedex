@@ -1,8 +1,6 @@
 name: Deployment Pipeline
 description: Deployment pipeline for the project
-branding:
-  icon: file-text
-  color: blue
+
 
 on:
   push:
