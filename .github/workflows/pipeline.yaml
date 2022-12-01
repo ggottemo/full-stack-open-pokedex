@@ -23,4 +23,8 @@ jobs:
         run: npm install eslint
       - name: Lint code
         run: npm run lint
+      - name: Build
+        run: npm run build
+      - name: run tests
+        run: npm test
 
