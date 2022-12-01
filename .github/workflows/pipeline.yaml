@@ -1,7 +1,7 @@
 name: Deployment Pipeline
 description: Deployment pipeline for the project
 branding:
-  icon: octicon beaker
+  icon: file-text
   color: blue
 
 on:
