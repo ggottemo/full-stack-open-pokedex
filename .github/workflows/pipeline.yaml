@@ -1,5 +1,5 @@
 name: Deployment Pipeline
-description: Deployment pipeline for the project
+
 
 
 on:
@@ -18,6 +18,9 @@ jobs:
         with:
           node-version: '18.x'
       - name: Install dependencies
+      - branding:
+          icon: '🚀'
+          color: 'blue'
         run: npm install
       - name: Lint code
         run: npm run lint
