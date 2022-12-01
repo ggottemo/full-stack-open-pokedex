@@ -13,3 +13,7 @@ jobs:
       - name: Say hello
         run: |
           echo "Hello World!"
+          echo "The current date is $(date)."
+          echo "The current time is $(date +%T)." # 24 hour format
+          echo "The current DIR is $(pwd)."
+          echo "The current BRANCH is $(git branch --show-current)."
