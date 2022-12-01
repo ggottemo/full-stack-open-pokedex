@@ -10,4 +10,4 @@ jobs:
   hello-world:
     runs-on: ubuntu-latest
     steps:
-        runs: echo "Hello, world!"
+       - runs: echo "Hello, world!"
