@@ -1,0 +1,23 @@
+name: Deployment Pipeline
+icon: octicon beaker
+
+on:
+  push:
+    branches:
+      - master
+      # note that your "main" branch might be called main instead of master
+
+
+jobs:
+  simple_deployment_pipeline_example:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3 # checkout the code from your repo so that the workflow can access it
+      - uses: actions/setup-node@v3 # setup node so that you can run npm commands
+        with:
+          node-version: '18.x'
+      - name: Install dependencies
+        run: npm install
+      - name: Lint code
+        run: npm run lint
+
