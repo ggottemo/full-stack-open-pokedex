@@ -1,5 +1,7 @@
 name: Deployment Pipeline
-icon: octicon beaker
+branding:
+  icon: octicon beaker
+  color: blue
 
 on:
   push:
